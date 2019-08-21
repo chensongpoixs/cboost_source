@@ -34,10 +34,8 @@ namespace boost {
 namespace asio {
 
 io_service::io_service()
-  : service_registry_(new boost::asio::detail::service_registry(
-        *this, static_cast<impl_type*>(0),
-        (std::numeric_limits<std::size_t>::max)())),  // new task_io_service 
-    impl_(service_registry_->first_service<impl_type>())
+  : service_registry_(new boost::asio::detail::service_registry( *this, static_cast<impl_type*>(0), (std::numeric_limits<std::size_t>::max)()))  // new task_io_service  
+  , impl_(service_registry_->first_service<impl_type>())
 {
 }
 

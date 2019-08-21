@@ -30,7 +30,7 @@
 namespace boost {
 namespace asio {
 namespace detail {
-
+//  boost 任务线程的控制
 struct task_io_service::task_cleanup  // C++ 中的 class construct destroy 
 {
   ~task_cleanup()
@@ -89,7 +89,7 @@ struct task_io_service::work_cleanup
 task_io_service::task_io_service(
     boost::asio::io_service& io_service, std::size_t concurrency_hint)
   : boost::asio::detail::service_base<task_io_service>(io_service),
-    one_thread_(concurrency_hint == 1),
+    one_thread_(concurrency_hint == 1),  // 默认是多线程的  
     mutex_(),
     task_(0),
     task_interrupted_(true),
@@ -147,8 +147,12 @@ std::size_t task_io_service::run(boost::system::error_code& ec)
 
   std::size_t n = 0;
   for (; do_run_one(lock, this_thread, ec); lock.lock())
-    if (n != (std::numeric_limits<std::size_t>::max)())
-      ++n;
+  {
+	if (n != (std::numeric_limits<std::size_t>::max)())
+    {
+		 ++n;
+	}
+  }
   return n;
 }
 
@@ -325,9 +329,7 @@ void task_io_service::abandon_operations(
   ops2.push(ops);
 }
 
-std::size_t task_io_service::do_run_one(mutex::scoped_lock& lock,
-    task_io_service::thread_info& this_thread,
-    const boost::system::error_code& ec)
+std::size_t task_io_service::do_run_one(mutex::scoped_lock& lock, task_io_service::thread_info& this_thread, const boost::system::error_code& ec)
 {
   while (!stopped_)
   {
@@ -342,7 +344,7 @@ std::size_t task_io_service::do_run_one(mutex::scoped_lock& lock,
       {
         task_interrupted_ = more_handlers;
 		printf("[%s][%d] \n", __PRETTY_FUNCTION__, __LINE__);
-        if (more_handlers && !one_thread_)
+        if (more_handlers && !one_thread_)//当没有任务时工作线程就不需要加锁了
           wakeup_event_.unlock_and_signal_one(lock);
         else
           lock.unlock();
@@ -360,10 +362,14 @@ std::size_t task_io_service::do_run_one(mutex::scoped_lock& lock,
       {
         std::size_t task_result = o->task_result_;
 
-        if (more_handlers && !one_thread_)
-          wake_one_thread_and_unlock(lock);
+        if (more_handlers && !one_thread_)  // 唤醒work线程起来工作了
+        {
+			 wake_one_thread_and_unlock(lock);
+		}
         else
-          lock.unlock();
+        {
+			lock.unlock();
+		}
 
         // Ensure the count of outstanding work is decremented on block exit.
         work_cleanup on_exit = { this, &lock, &this_thread };
@@ -452,8 +458,7 @@ void task_io_service::stop_all_threads(
   }
 }
 
-void task_io_service::wake_one_thread_and_unlock(
-    mutex::scoped_lock& lock)
+void task_io_service::wake_one_thread_and_unlock(mutex::scoped_lock& lock)
 {
   if (!wakeup_event_.maybe_unlock_and_signal_one(lock))
   {

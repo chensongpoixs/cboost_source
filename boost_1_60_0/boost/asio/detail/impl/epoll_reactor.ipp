@@ -382,7 +382,9 @@ void epoll_reactor::run(bool block, op_queue<operation>& ops)
   // Calculate a timeout only if timerfd is not used.
   int timeout;
   if (timer_fd_ != -1)
-    timeout = block ? -1 : 0;
+  {
+	timeout = block ? -1 : 0;
+  }
   else
   {
     mutex::scoped_lock lock(mutex_);

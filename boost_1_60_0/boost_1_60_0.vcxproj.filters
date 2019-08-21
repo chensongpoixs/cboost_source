@@ -1,0 +1,1343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="boost">
+      <UniqueIdentifier>{df9fe25d-ed17-4bbb-820b-56def7150389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\asio">
+      <UniqueIdentifier>{ed1f8b7d-e4a7-4808-8d6e-e0d74fbb2f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\asio\detail">
+      <UniqueIdentifier>{58bd5758-2510-456a-bddc-314e7a724a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\asio\detail\impl">
+      <UniqueIdentifier>{3a8af7b2-b561-41a7-82e0-c2203d6cffe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\asio\impl">
+      <UniqueIdentifier>{36868971-b2c3-4f59-a692-84a65cd139f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="boost\align.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\aligned_storage.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\any.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\array.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\assert.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\assign.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\atomic.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\bimap.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\bind.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\blank.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\blank_fwd.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\call_traits.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cast.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cerrno.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\checked_delete.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\chrono.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\circular_buffer.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\circular_buffer_fwd.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\compressed_pair.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\concept_archetype.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\concept_check.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\config.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\convert.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\crc.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cregex.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cstdfloat.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cstdint.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cstdlib.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\current_function.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cxx11_char_types.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\date_time.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\dynamic_bitset.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\dynamic_bitset_fwd.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\enable_shared_from_this.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\exception_ptr.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\filesystem.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\flyweight.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\foreach.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\foreach_fwd.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\format.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\function.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\function_equal.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\function_output_iterator.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\functional.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\generator_iterator.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\geometry.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\get_pointer.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\implicit_cast.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\indirect_reference.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\integer.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\integer_fwd.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\integer_traits.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive_ptr.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\io_fwd.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\is_placeholder.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\iterator.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\iterator_adaptors.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\last_value.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\lexical_cast.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\limits.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\local_function.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\locale.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\make_default.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\make_shared.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\make_unique.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\math_fwd.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mem_fn.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\memory_order.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mpi.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\multi_array.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\multi_index_container.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\multi_index_container_fwd.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\next_prior.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\non_type.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\noncopyable.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\nondet_random.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\none.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\none_t.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\operators.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\optional.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\parameter.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\phoenix.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\pointee.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\pointer_cast.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\pointer_to_other.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\polymorphic_cast.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\polymorphic_pointer_cast.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\predef.h">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\preprocessor.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\program_options.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\progress.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\python.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\random.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\range.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\ratio.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\rational.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\ref.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\regex.h">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\regex.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\regex_fwd.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\scope_exit.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\scoped_array.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\scoped_ptr.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\shared_array.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\shared_container_iterator.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\shared_ptr.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\signal.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\signals.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\signals2.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\smart_ptr.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\spirit.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\static_assert.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\swap.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\thread.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\throw_exception.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\timer.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\token_functions.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\token_iterator.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\tokenizer.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_index.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\unordered_map.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\unordered_set.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\utility.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\variant.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\version.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\visit_each.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\wave.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\weak_ptr.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\async_result.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_datagram_socket.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_deadline_timer.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_io_object.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_raw_socket.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_seq_packet_socket.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_serial_port.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_signal_set.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_socket.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_socket_acceptor.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_socket_iostream.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_socket_streambuf.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_stream_socket.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_streambuf.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_streambuf_fwd.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\basic_waitable_timer.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\buffer.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\buffered_read_stream.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\buffered_read_stream_fwd.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\buffered_stream.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\buffered_stream_fwd.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\buffered_write_stream.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\buffered_write_stream_fwd.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\buffers_iterator.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\completion_condition.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\connect.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\coroutine.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\datagram_socket_service.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\deadline_timer.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\deadline_timer_service.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\error.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\handler_alloc_hook.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\handler_continuation_hook.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\handler_invoke_hook.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\handler_type.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\high_resolution_timer.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\io_service.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\is_read_buffered.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\is_write_buffered.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\placeholders.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\raw_socket_service.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\read.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\read_at.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\read_until.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\seq_packet_socket_service.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\serial_port.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\serial_port_base.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\serial_port_service.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\signal_set.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\signal_set_service.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\socket_acceptor_service.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\socket_base.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\spawn.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\ssl.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\steady_timer.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\strand.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\stream_socket_service.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\streambuf.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\system_timer.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\time_traits.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\unyield.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\use_future.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\version.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\wait_traits.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\waitable_timer_service.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\write.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\write_at.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\yield.hpp">
+      <Filter>boost\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\addressof.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\array.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\array_fwd.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\assert.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\atomic_count.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\base_from_completion_cond.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\bind_handler.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\buffer_resize_guard.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\buffer_sequence_adapter.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\buffered_stream_storage.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\call_stack.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\chrono_time_traits.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\completion_handler.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\config.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\consuming_buffers.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\cstdint.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\date_time_fwd.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\deadline_timer_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\dependent_type.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\descriptor_ops.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\descriptor_read_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\descriptor_write_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\dev_poll_reactor.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\epoll_reactor.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\event.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\eventfd_select_interrupter.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\fd_set_adapter.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\fenced_block.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\function.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\gcc_arm_fenced_block.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\gcc_hppa_fenced_block.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\gcc_sync_fenced_block.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\gcc_x86_fenced_block.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\handler_alloc_helpers.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\handler_cont_helpers.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\handler_invoke_helpers.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\handler_tracking.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\handler_type_requirements.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\hash_map.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\io_control.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\keyword_tss_ptr.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\kqueue_reactor.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\limits.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\local_free_on_block_exit.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\macos_fenced_block.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\mutex.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\noncopyable.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\null_event.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\null_fenced_block.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\null_mutex.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\null_reactor.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\null_signal_blocker.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\null_socket_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\null_static_mutex.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\null_thread.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\null_tss_ptr.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\object_pool.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\old_win_sdk_compat.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\op_queue.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\operation.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\pipe_select_interrupter.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\pop_options.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\posix_event.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\posix_fd_set_adapter.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\posix_mutex.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\posix_signal_blocker.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\posix_static_mutex.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\posix_thread.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\posix_tss_ptr.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\push_options.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_descriptor_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_null_buffers_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_serial_port_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_socket_accept_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_socket_connect_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_socket_recv_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_socket_recvfrom_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_socket_recvmsg_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_socket_send_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_socket_sendto_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_socket_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactive_socket_service_base.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactor.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactor_fwd.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactor_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\reactor_op_queue.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\regex_fwd.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\resolve_endpoint_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\resolve_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\resolver_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\resolver_service_base.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\scoped_lock.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\scoped_ptr.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\select_interrupter.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\select_reactor.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\service_registry.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\shared_ptr.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\signal_blocker.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\signal_handler.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\signal_init.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\signal_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\signal_set_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\socket_holder.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\socket_ops.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\socket_option.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\socket_select_interrupter.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\socket_types.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\solaris_fenced_block.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\static_mutex.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\std_event.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\std_mutex.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\std_static_mutex.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\std_thread.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\strand_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\task_io_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\task_io_service_operation.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\task_io_service_thread_info.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\thread.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\thread_info_base.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\throw_error.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\throw_exception.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\timer_queue.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\timer_queue_base.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\timer_queue_ptime.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\timer_queue_set.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\timer_scheduler.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\timer_scheduler_fwd.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\tss_ptr.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\type_traits.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\variadic_templates.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\wait_handler.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\wait_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\weak_ptr.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_event.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_fd_set_adapter.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_fenced_block.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_handle_read_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_handle_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_handle_write_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_io_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_null_buffers_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_operation.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_overlapped_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_overlapped_ptr.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_serial_port_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_socket_accept_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_socket_connect_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_socket_recv_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_socket_recvfrom_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_socket_recvmsg_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_socket_send_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_socket_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_socket_service_base.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_iocp_thread_info.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_mutex.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_object_handle_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_static_mutex.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_thread.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\win_tss_ptr.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winapi_thread.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\wince_thread.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_async_manager.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_async_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_resolve_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_resolver_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_socket_connect_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_socket_recv_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_socket_send_op.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_ssocket_service.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_ssocket_service_base.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_timer_scheduler.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winrt_utils.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\winsock_init.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\wrapped_handler.hpp">
+      <Filter>boost\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\impl\dev_poll_reactor.hpp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\impl\epoll_reactor.hpp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\impl\kqueue_reactor.hpp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\impl\select_reactor.hpp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\impl\service_registry.hpp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\impl\strand_service.hpp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\impl\task_io_service.hpp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\impl\win_iocp_io_service.hpp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\detail\impl\winrt_timer_scheduler.hpp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\buffered_read_stream.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\buffered_write_stream.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\connect.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\io_service.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\read.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\read_at.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\read_until.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\serial_port_base.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\spawn.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\src.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\use_future.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\write.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio\impl\write_at.hpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="boost\asio\detail\impl\buffer_sequence_adapter.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\descriptor_ops.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\dev_poll_reactor.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\epoll_reactor.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\eventfd_select_interrupter.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\handler_tracking.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\kqueue_reactor.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\pipe_select_interrupter.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\posix_event.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\posix_mutex.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\posix_thread.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\posix_tss_ptr.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\reactive_descriptor_service.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\reactive_serial_port_service.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\reactive_socket_service_base.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\resolver_service_base.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\select_reactor.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\service_registry.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\signal_set_service.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\socket_ops.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\socket_select_interrupter.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\strand_service.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\task_io_service.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\throw_error.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\timer_queue_ptime.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\timer_queue_set.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\win_event.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\win_iocp_handle_service.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\win_iocp_io_service.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\win_iocp_serial_port_service.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\win_iocp_socket_service_base.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\win_mutex.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\win_object_handle_service.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\win_static_mutex.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\win_thread.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\win_tss_ptr.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\winrt_ssocket_service_base.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\winrt_timer_scheduler.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\detail\impl\winsock_init.ipp">
+      <Filter>boost\asio\detail\impl</Filter>
+    </None>
+    <None Include="boost\asio\impl\error.ipp">
+      <Filter>boost\asio\impl</Filter>
+    </None>
+    <None Include="boost\asio\impl\handler_alloc_hook.ipp">
+      <Filter>boost\asio\impl</Filter>
+    </None>
+    <None Include="boost\asio\impl\io_service.ipp">
+      <Filter>boost\asio\impl</Filter>
+    </None>
+    <None Include="boost\asio\impl\serial_port_base.ipp">
+      <Filter>boost\asio\impl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="boost\asio\impl\src.cpp">
+      <Filter>boost\asio\impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

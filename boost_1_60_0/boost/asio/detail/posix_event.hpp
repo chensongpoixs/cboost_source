@@ -67,8 +67,10 @@ public:
     state_ |= 1;
     bool have_waiters = (state_ > 1);
     lock.unlock();
-    if (have_waiters)
-      ::pthread_cond_signal(&cond_); // Ignore EINVAL.
+	if (have_waiters)
+	{
+		::pthread_cond_signal(&cond_); // Ignore EINVAL.
+	}
   }
 
   // If there's a waiter, unlock the mutex and signal it.

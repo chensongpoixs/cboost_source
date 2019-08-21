@@ -36,8 +36,10 @@ public:
 
   ~thread_info_base()
   {
-    if (reusable_memory_)
-      ::operator delete(reusable_memory_);
+	  if (reusable_memory_)
+	  {
+		  ::operator delete(reusable_memory_);
+	  }
   }
 
   static void* allocate(thread_info_base* this_thread, std::size_t size)
