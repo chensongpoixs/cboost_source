@@ -159,6 +159,7 @@ void select_reactor::deregister_internal_descriptor(
 {
   boost::asio::detail::mutex::scoped_lock lock(mutex_);
   op_queue<operation> ops;
+  // 在boost库使用队列 删除一个元素时要遍历查询 时间复杂度O(n)    libevent 使用 使用数组 查询时间复杂度为O(1)  
   for (int i = 0; i < max_ops; ++i)
     op_queue_[i].cancel_operations(descriptor, ops);
 }
