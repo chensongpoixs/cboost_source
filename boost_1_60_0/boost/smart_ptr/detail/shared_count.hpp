@@ -481,6 +481,7 @@ public:
         , id_(shared_count_id)
 #endif
     {
+		// 引用计数增加 1
         if( pi_ != 0 ) pi_->add_ref_copy();
     }
 
@@ -505,6 +506,7 @@ public:
 
         if( tmp != pi_ )
         {
+			// 引用计数增加 1
             if( tmp != 0 ) tmp->add_ref_copy();
             if( pi_ != 0 ) pi_->release();
             pi_ = tmp;

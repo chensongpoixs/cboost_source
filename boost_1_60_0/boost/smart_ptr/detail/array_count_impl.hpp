@@ -23,7 +23,7 @@ namespace boost {
             sp_counted_impl_pda(P, D, const A& allocator_)
                 : allocator(allocator_) {
             }
-
+			//释放    引用计数 释放
             virtual void dispose() {
                 allocator();
             }
