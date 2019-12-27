@@ -76,6 +76,7 @@ public:
   BOOST_ASIO_DECL void reset();
 
   // Notify that some work has started.
+  //队列中事件的个数
   void work_started()
   {
     ++outstanding_work_;

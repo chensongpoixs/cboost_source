@@ -210,7 +210,7 @@ std::size_t sync_read(int d, state_type state, buf* bufs,
       return 0;
   }
 }
-
+//异步读取数据
 bool non_blocking_read(int d, buf* bufs, std::size_t count,
     boost::system::error_code& ec, std::size_t& bytes_transferred)
 {

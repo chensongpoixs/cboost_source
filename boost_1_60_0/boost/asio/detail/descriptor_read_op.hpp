@@ -43,14 +43,14 @@ public:
       buffers_(buffers)
   {
   }
-
+ //中任务io_task中执行的
   static bool do_perform(reactor_op* base)
   {
     descriptor_read_op_base* o(static_cast<descriptor_read_op_base*>(base));
 
     buffer_sequence_adapter<boost::asio::mutable_buffer,
         MutableBufferSequence> bufs(o->buffers_);
-
+    // 看到吧 异步读取数据到buffer中
     return descriptor_ops::non_blocking_read(o->descriptor_,
         bufs.buffers(), bufs.count(), o->ec_, o->bytes_transferred_);
   }

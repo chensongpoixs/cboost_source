@@ -228,6 +228,7 @@ void epoll_reactor::start_op(int op_type, socket_type descriptor,
         && (op_type != read_op
           || descriptor_data->op_queue_[except_op].empty()))
     {
+	  // async_write  and async_send  data; backcall
       if (op->perform())
       {
         descriptor_lock.unlock();
@@ -269,7 +270,7 @@ void epoll_reactor::start_op(int op_type, socket_type descriptor,
       epoll_ctl(epoll_fd_, EPOLL_CTL_MOD, descriptor, &ev);
     }
   }
-
+  //掉到队列中等待epoll事件响应
   descriptor_data->op_queue_[op_type].push(op);
   io_service_.work_started();
 }
@@ -608,7 +609,7 @@ epoll_reactor::descriptor_state::descriptor_state()
   : operation(&epoll_reactor::descriptor_state::do_complete)
 {
 }
-
+// async_send and async_write  --
 operation* epoll_reactor::descriptor_state::perform_io(uint32_t events)
 {
   mutex_.lock();
@@ -624,7 +625,7 @@ operation* epoll_reactor::descriptor_state::perform_io(uint32_t events)
     {
       while (reactor_op* op = op_queue_[j].front())
       {
-        if (op->perform())
+        if (op->perform())//=====
         {
           op_queue_[j].pop();
           io_cleanup.ops_.push(op);

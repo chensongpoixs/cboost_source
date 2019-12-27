@@ -283,7 +283,7 @@ public:
     p.p = new (p.v) op(impl.socket_, impl.state_, buffers, flags, handler);
 
     BOOST_ASIO_HANDLER_CREATION((p.p, "socket", &impl, "async_receive"));
-
+    // 读取数据 
     start_op(impl,
         (flags & socket_base::message_out_of_band)
           ? reactor::except_op : reactor::read_op,

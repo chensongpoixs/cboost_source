@@ -75,7 +75,7 @@ typedef iovec buf;
 
 BOOST_ASIO_DECL std::size_t sync_read(int d, state_type state, buf* bufs,
     std::size_t count, bool all_empty, boost::system::error_code& ec);
-
+// 异步读取数据 socket_op中实现的
 BOOST_ASIO_DECL bool non_blocking_read(int d, buf* bufs, std::size_t count,
     boost::system::error_code& ec, std::size_t& bytes_transferred);
 
