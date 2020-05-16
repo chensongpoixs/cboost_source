@@ -42,7 +42,7 @@ public:
   {
     reactive_socket_connect_op_base* o(
         static_cast<reactive_socket_connect_op_base*>(base));
-
+	//连接时候是同步的 连接后是非阻塞的socket的
     return socket_ops::non_blocking_connect(o->socket_, o->ec_);
   }
 

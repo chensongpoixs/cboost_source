@@ -164,6 +164,7 @@ public:
   }
 
   // Disable sends or receives on the socket.
+  // linux platfrom  shutdown api close 
   boost::system::error_code shutdown(base_implementation_type& impl,
       socket_base::shutdown_type what, boost::system::error_code& ec)
   {
@@ -312,7 +313,7 @@ public:
 
     BOOST_ASIO_HANDLER_CREATION((p.p, "socket",
           &impl, "async_receive(null_buffers)"));
-
+	//注册读事件       到epoll中
     start_op(impl,
         (flags & socket_base::message_out_of_band)
           ? reactor::except_op : reactor::read_op,

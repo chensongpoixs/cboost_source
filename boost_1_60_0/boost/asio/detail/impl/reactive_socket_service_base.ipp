@@ -209,7 +209,7 @@ void reactive_socket_service_base::start_op(
     if ((impl.state_ & socket_ops::non_blocking)
         || socket_ops::set_internal_non_blocking(   // flags IO 
           impl.socket_, impl.state_, true, op->ec_))
-    {
+    {  //epoll_wait
       reactor_.start_op(op_type, impl.socket_,
           impl.reactor_data_, op, is_continuation, is_non_blocking);
       return;
@@ -240,7 +240,7 @@ void reactive_socket_service_base::start_connect_op(
   if ((impl.state_ & socket_ops::non_blocking)
       || socket_ops::set_internal_non_blocking(  // async accept new client descriptor 
         impl.socket_, impl.state_, true, op->ec_))
-  {
+  {  //异步连接服务器  放到反应堆中文件描述符
     if (socket_ops::connect(impl.socket_, addr, addrlen, op->ec_) != 0)
     {
       if (op->ec_ == boost::asio::error::in_progress

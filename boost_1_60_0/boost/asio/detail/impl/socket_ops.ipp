@@ -449,7 +449,7 @@ bool set_internal_non_blocking(socket_type s,
 
   return false;
 }
-
+// close client desfile 
 int shutdown(socket_type s, int what, boost::system::error_code& ec)
 {
   if (s == invalid_socket)

@@ -57,6 +57,7 @@ public:
 
 private:
   // The type of the platform-specific implementation.
+  //  flatform api 
 #if defined(BOOST_ASIO_WINDOWS_RUNTIME)
   typedef detail::null_socket_service<Protocol> service_impl_type;
 #elif defined(BOOST_ASIO_HAS_IOCP)

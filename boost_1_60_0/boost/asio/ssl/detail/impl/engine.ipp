@@ -137,7 +137,7 @@ engine::want engine::handshake(
   return perform((type == boost::asio::ssl::stream_base::client)
       ? &engine::do_connect : &engine::do_accept, 0, 0, ec, 0);
 }
-
+// shutdown close desfile --> 
 engine::want engine::shutdown(boost::system::error_code& ec)
 {
   return perform(&engine::do_shutdown, 0, 0, ec, 0);

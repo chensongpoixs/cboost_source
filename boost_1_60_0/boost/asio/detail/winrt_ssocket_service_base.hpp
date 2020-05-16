@@ -161,6 +161,7 @@ public:
   }
 
   // Disable sends or receives on the socket.
+  // shutdown close desfile 
   boost::system::error_code shutdown(base_implementation_type&,
       socket_base::shutdown_type, boost::system::error_code& ec)
   {
