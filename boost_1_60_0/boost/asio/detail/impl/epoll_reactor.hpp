@@ -47,7 +47,7 @@ void epoll_reactor::schedule_timer(timer_queue<Time_Traits>& queue,
     io_service_.post_immediate_completion(op, false);
     return;
   }
-
+  //插入计时器  更新
   bool earliest = queue.enqueue_timer(time, timer, op);
   io_service_.work_started();
   if (earliest)

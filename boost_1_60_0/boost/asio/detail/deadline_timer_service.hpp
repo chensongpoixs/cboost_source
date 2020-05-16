@@ -156,7 +156,7 @@ public:
   // Set the expiry time for the timer relative to now.
   std::size_t expires_from_now(implementation_type& impl,
       const duration_type& expiry_time, boost::system::error_code& ec)
-  {
+  { //计算秒响应时间
     return expires_at(impl,
         Time_Traits::add(Time_Traits::now(), expiry_time), ec);
   }
